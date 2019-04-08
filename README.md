@@ -1,0 +1,1 @@
+# asp_dotnet_core_store_application
