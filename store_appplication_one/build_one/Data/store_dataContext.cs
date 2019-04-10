@@ -11,9 +11,10 @@ namespace build_one.Models
         public store_dataContext (DbContextOptions<store_dataContext> options)
             : base(options)
         {
-
+           
         }
-
+        
         public DbSet<build_one.Models.ManagementModel> ManagementModel { get; set; }
+
     }
 }
