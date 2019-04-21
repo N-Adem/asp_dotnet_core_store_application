@@ -1,0 +1,80 @@
+﻿@model build_one.Models.OrderingModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2> Order List </h2>
+@{ 
+    // Select a table from drop down list. 
+}
+<div class="dropdown">
+<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Select Catergory
+</button>    
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#"> Electric Goods </a>
+        <a class="dropdown-item" href="#"> Clothing </a>
+        <a class="dropdown-item" href="#"> Sporting Equiptment </a>
+        <a class="dropdown-item" href="#"> Home/ Garden  </a>
+    </div>
+</div>    
+                        
+@{ 
+    // Code block below is for the total selected items ready to be purchased. 
+}
+<h3>Selected Items</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th> Product ID </th>
+            <th> Product Name </th>
+            <th> Product Type </th>
+            <th> Quantity </th>
+            <th> Price </th>
+            <th> Total Price </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Ajki</td>
+            <td>Office Chair</td>
+            <td>Office</td>
+            <td>3</td>
+            <td>$20</td>
+            <td>$60</td>
+            <td>
+                <button class="btn-group">
+                    Add to Order
+                </button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<hr />
+
+<h3> Process Order </h3>
+
+<div class="row">
+    <div class="col-sm-3">
+
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-3">
+        <button class="btn-group">
+            Check Balance
+        </button>
+    </div>
+    <div class="col-sm-3">
+        [Balance]
+    </div>
+    <div class="col-sm-3">
+        [Blank] 
+    </div>
+    <div class="col-sm-3">
+        [Blank]
+    </div>
+</div>
+
