@@ -15,6 +15,7 @@ namespace build_one.Models
         }
         
         public DbSet<build_one.Models.ManagementModel> ManagementModel { get; set; }
+        //public DbSet<build_one.Models.OrderingModel> OrderModel { get; set; }
 
     }
 }

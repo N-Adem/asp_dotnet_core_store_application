@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <!--  First row  -->
     <div class="row">
         <div class="col-sm-4"><img src="~/images/managers.png" id="imgdesign" height="200" width="200" /></div>
         <div class="col-sm-4"><img src="~/images/maps.jpg" id="imgdesign" height="200" width="200" /></div>
@@ -23,12 +24,29 @@
             <button class="btn btn-success"> <a asp-area="" asp-controller="ManagementModel" asp-action="Index">Store Location</a> </button>
         </div>
         <div class="col-sm-4">
-            <button class="btn btn-success"> <a asp-area="" asp-controller="ManagementModel" asp-action="Index"> Place Orders</a> </button>
+            <button class="btn btn-success"> <a asp-area="" asp-controller="OrderingModel" asp-action="Index"> Place Orders</a> </button>
         </div>
-        @{
-            // book a holiday feature
-        }
     </div>
+    <!-- The second row -->
+    <div class="row">
+        <div class="col-sm-4"><img src="~/images/Holidays.jpg" id="imgdesign" height="200" width="200" /></div>
+        <div class="col-sm-4"><img src="~/images/training.jpg" id="imgdesign" height="200" width="200" /></div>
+        <div class="col-sm-4"><img src="~/images/blank.jpg" id="imgdesign" height="200" width="200" /></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <button class="btn btn-success"> <a asp-area="" asp-controller="ManagementModel" asp-action="Index"> Book Holidays</a> </button>
+        </div>
+        <div class="col-sm-4">
+            <button class="btn btn-success"> <a asp-area="" asp-controller="ManagementModel" asp-action="Index"> Staff Training</a> </button>
+        </div>
+        <div class="col-sm-4">
+            <button class="btn btn-success"> <a asp-area="" asp-controller="ManagementModel" asp-action="Index"> PlaceHolder </a> </button>
+        </div>
+    </div>
+    @{
+        // book a holiday feature
+    }
 </body>
 
 

@@ -35,3 +35,5 @@ C:\Users\User\Desktop\asp_dotnet_core_store_application\store_appplication_one\b
 C:\Users\User\Desktop\asp_dotnet_core_store_application\store_appplication_one\build_one\obj\Debug\netcoreapp2.1\Razor\Views\ManagementModel\Details.g.cshtml.cs
 C:\Users\User\Desktop\asp_dotnet_core_store_application\store_appplication_one\build_one\obj\Debug\netcoreapp2.1\Razor\Views\ManagementModel\Edit.g.cshtml.cs
 C:\Users\User\Desktop\asp_dotnet_core_store_application\store_appplication_one\build_one\obj\Debug\netcoreapp2.1\Razor\Views\ManagementModel\Index.g.cshtml.cs
+C:\Users\User\Desktop\asp_dotnet_core_store_application\store_appplication_one\build_one\obj\Debug\netcoreapp2.1\Razor\Views\OrderingModel\Index.g.cshtml.cs
+C:\Users\User\Desktop\asp_dotnet_core_store_application\store_appplication_one\build_one\obj\Debug\netcoreapp2.1\Razor\Views\OrderingModel\Delivery.g.cshtml.cs
