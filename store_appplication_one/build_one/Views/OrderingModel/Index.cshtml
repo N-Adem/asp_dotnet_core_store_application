@@ -5,76 +5,91 @@
 }
 
 <h2> Order List </h2>
-@{ 
-    // Select a table from drop down list. 
+@{
+    // Select a table from drop down list.
 }
-<div class="dropdown">
-<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Select Catergory
-</button>    
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item" href="#"> Electric Goods </a>
-        <a class="dropdown-item" href="#"> Clothing </a>
-        <a class="dropdown-item" href="#"> Sporting Equiptment </a>
-        <a class="dropdown-item" href="#"> Home/ Garden  </a>
-    </div>
-</div>    
-                        
-@{ 
-    // Code block below is for the total selected items ready to be purchased. 
+<div class="form-group">
+    <select class="custom-select">
+        <option selected="">General Goods</option>
+        <option value="1">Electric Goods</option>
+        <option value="2">Clothing</option>
+        <option value="3">Sporting Equiptment</option>
+        <option value="4">Home/ Gardening </option>
+    </select>
+</div>
+@{
+    // Code block below is for the total selected items ready to be purchased.
 }
-<h3>Selected Items</h3>
-<table class="table">
-    <thead>
-        <tr>
-            <th> Product ID </th>
-            <th> Product Name </th>
-            <th> Product Type </th>
-            <th> Quantity </th>
-            <th> Price </th>
-            <th> Total Price </th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Ajki</td>
-            <td>Office Chair</td>
-            <td>Office</td>
-            <td>3</td>
-            <td>$20</td>
-            <td>$60</td>
-            <td>
-                <button class="btn-group">
-                    Add to Order
-                </button>
-            </td>
-        </tr>
-    </tbody>
-</table>
-<hr />
-
-<h3> Process Order </h3>
-
-<div class="row">
-    <div class="col-sm-3">
-
-    </div>
+<div class="jumbotron">
+    <h3> <u> Selected Items </u></h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th> Product ID </th>
+                <th> Product Name </th>
+                <th> Product Type </th>
+                <th> Quantity </th>
+                <th> Price </th>
+                <th> Total Price </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ajki</td>
+                <td>Office Chair</td>
+                <td>Office</td>
+                <td>3</td>
+                <td>$20</td>
+                <td>$60</td>
+                <td>
+                    <button class="btn-group">
+                        Add to Order
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <hr />
 </div>
+@{
+    // this block of code is for checking and processing orders
+}
+<div class="jumbotron">
+    <h3><u> Process Order </u> </h3>
 
-<div class="row">
-    <div class="col-sm-3">
-        <button class="btn-group">
-            Check Balance
-        </button>
+    <div class="row">
+        <div class="col-sm-3">
+            <button> Total Items </button>
+        </div>
+        <div class="col-sm-3">
+            <button class="btn-goup">
+                Check Total
+            </button>
+        </div>
+        <div class="col-sm-3">
+            <button class="btn-goup">
+                Check Balance
+            </button>
+        </div>
+        <div class="col-sm-3">
+            <p> [In Development] </p>
+        </div>
     </div>
-    <div class="col-sm-3">
-        [Balance]
+    <hr />
+    <div class="row">
+        <div class="col-sm-3">
+            <input class="form-control" type="text" placeholder="23" readonly>
+        </div>
+        <div class="col-sm-3">
+            <input class="form-control" type="text" placeholder="£ 21,320" readonly>
+        </div>
+        <div class="col-sm-3">
+            <input class="form-control" type="text" placeholder="£ 27,980" readonly>
+        </div>
+        <div class="col-sm-3">
+            [In Development]
+        </div>
     </div>
-    <div class="col-sm-3">
-        [Blank] 
-    </div>
-    <div class="col-sm-3">
-        [Blank]
-    </div>
+
+
 </div>
-
