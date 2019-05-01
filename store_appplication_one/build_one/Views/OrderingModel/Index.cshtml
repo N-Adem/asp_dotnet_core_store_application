@@ -1,56 +1,90 @@
 ﻿@model build_one.Models.OrderingModel
-
+@addTagHelper*, Microsoft.AspNetCore.Mvc.TagHelpers
 @{
     ViewData["Title"] = "Index";
 }
 
-<h2> Order List </h2>
-@{
-    // Select a table from drop down list.
-}
-<div class="form-group">
-    <select class="custom-select">
-        <option selected="">General Goods</option>
-        <option value="1">Electric Goods</option>
-        <option value="2">Clothing</option>
-        <option value="3">Sporting Equiptment</option>
-        <option value="4">Home/ Gardening </option>
-    </select>
-</div>
+<hr />
 @{
     // Code block below is for the total selected items ready to be purchased.
 }
+
 <div class="jumbotron">
     <h3> <u> Selected Items </u></h3>
-    <table class="table">
-        <thead>
-            <tr>
-                <th> Product ID </th>
-                <th> Product Name </th>
-                <th> Product Type </th>
-                <th> Quantity </th>
-                <th> Price </th>
-                <th> Total Price </th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Ajki</td>
-                <td>Office Chair</td>
-                <td>Office</td>
-                <td>3</td>
-                <td>$20</td>
-                <td>$60</td>
-                <td>
-                    <button class="btn-group">
-                        Add to Order
-                    </button>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#home">Electricals</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " data-toggle="tab" href="#profile">Clothing</a>
+        </li>
+    </ul>
+
+    <div id="myTabContent" class="tab-content">
+        <div class="tab-pane fade active show" id="home">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th> Product ID </th>
+                        <th> Product Name </th>
+                        <th> Product Type </th>
+                        <th> Quantity </th>
+                        <th> Price </th>
+                        <th> Total Price </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>something else</td>
+                        <td>Office Chair</td>
+                        <td>Office</td>
+                        <td>3</td>
+                        <td>$20</td>
+                        <td>$60</td>
+                        <td>[quantity]</td>
+                        <td>
+                            <button class="btn-group">
+                                Add to Order
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="tab-pane fade show" id="profile">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th> Product ID </th>
+                        <th> Product Name </th>
+                        <th> Product Type </th>
+                        <th> Quantity </th>
+                        <th> Price </th>
+                        <th> Total Price </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ajki</td>
+                        <td>Office Chair</td>
+                        <td>Office</td>
+                        <td>3</td>
+                        <td>$20</td>
+                        <td>$60</td>
+                        <td>
+                            <button class="btn-group">
+                                Add to Order
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
     <hr />
 </div>
+<hr>
 @{
     // this block of code is for checking and processing orders
 }
@@ -80,8 +114,11 @@
         <div class="col-sm-3">
             <input class="form-control" type="text" placeholder="23" readonly>
         </div>
+        @{
+            int payAmount = Model.CurrentBalance;
+        }
         <div class="col-sm-3">
-            <input class="form-control" type="text" placeholder="£ 21,320" readonly>
+            <p> £ @payAmount</p>
         </div>
         <div class="col-sm-3">
             <input class="form-control" type="text" placeholder="£ 27,980" readonly>

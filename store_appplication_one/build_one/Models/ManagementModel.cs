@@ -12,6 +12,6 @@ namespace build_one.Models
         public string LastName { get; set; }
         public string Department { get; set; }   
         public string Location { get; set; }
-       // public EmployeeModel EmployeeId { get; set; }
+       // public EmployeeModel EmployeeId {get; set;}
     }
 }

@@ -72,7 +72,7 @@ using build_one.Models;
 #line default
 #line hidden
             BeginContext(45, 110, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d25f7c4336cb4f9a8f751b10e3181b78", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d2515b8ba30e4c71ad2b2b9696a12dac", async() => {
                 BeginContext(51, 97, true);
                 WriteLiteral("   \r\n    <style>\r\n        #imgdesign {\r\n            border-radius:50%;\r\n        }\r\n    </style>\r\n");
                 EndContext();
@@ -92,12 +92,12 @@ using build_one.Models;
             WriteLiteral("\r\n\r\n");
             EndContext();
             BeginContext(159, 2267, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6e82c2ceaac3402787c4d6b601d61d1d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "659436ebb11646f1b3a6002cfc4deb8d", async() => {
                 BeginContext(165, 122, true);
                 WriteLiteral("\r\n    <div class=\"jumbotron\">\r\n        <!--  First row  -->\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-4\">");
                 EndContext();
                 BeginContext(287, 75, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "72579f6a26294d76bc9acab5631532dd", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "39c2cfd887a446ea9043fbeb1602d34e", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -118,7 +118,7 @@ using build_one.Models;
                 WriteLiteral("</div>\r\n            <div class=\"col-sm-4\">");
                 EndContext();
                 BeginContext(404, 71, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "bfe8d8ab51be4c3ba871984b60532af7", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "b86ac391301949a9a1b2f31f1dee5e1c", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -139,7 +139,7 @@ using build_one.Models;
                 WriteLiteral("</div>\r\n            <div class=\"col-sm-4\">");
                 EndContext();
                 BeginContext(517, 75, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "77c2e929f1d14430be5e776fe78de905", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "0d3c12b5ea7b4e62bdf648493e11c0b5", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -160,7 +160,7 @@ using build_one.Models;
                 WriteLiteral("</div>\r\n        </div>\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-4\">\r\n                <button class=\"btn btn-success\"> ");
                 EndContext();
                 BeginContext(728, 88, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "65f6036855484861abf66196acf699be", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3e23460829b04001b8b8f56e502d9708", async() => {
                     BeginContext(795, 17, true);
                     WriteLiteral("Select Management");
                     EndContext();
@@ -186,7 +186,7 @@ using build_one.Models;
                 WriteLiteral(" </button>\r\n            </div>\r\n            <div class=\"col-sm-4\">\r\n                <button class=\"btn btn-success\"> ");
                 EndContext();
                 BeginContext(933, 85, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "efa572ece51c42c391558a70050ab5b8", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bea21042c08f4f62b9864df45eafea86", async() => {
                     BeginContext(1000, 14, true);
                     WriteLiteral("Store Location");
                     EndContext();
@@ -212,7 +212,7 @@ using build_one.Models;
                 WriteLiteral(" </button>\r\n            </div>\r\n            <div class=\"col-sm-4\">\r\n                <button class=\"btn btn-success\"> ");
                 EndContext();
                 BeginContext(1135, 82, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bb0366c4a47741448e8b32a86f8646f2", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f3b03464d3a648ee943108bc2a037610", async() => {
                     BeginContext(1200, 13, true);
                     WriteLiteral(" Place Orders");
                     EndContext();
@@ -238,7 +238,7 @@ using build_one.Models;
                 WriteLiteral(" </button>\r\n            </div>\r\n        </div>\r\n        <!-- The second row -->\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-4\">");
                 EndContext();
                 BeginContext(1359, 75, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "87da6ba7ee324c47bbcc1b72e4dfdb10", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "4bb5120d74844e188ebf2bcba8544932", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -259,7 +259,7 @@ using build_one.Models;
                 WriteLiteral("</div>\r\n            <div class=\"col-sm-4\">");
                 EndContext();
                 BeginContext(1476, 75, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "b4d9b233780e483f8a20ffed146ab38d", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "d6a23354efdd43c6a780de805231cf29", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -280,7 +280,7 @@ using build_one.Models;
                 WriteLiteral("</div>\r\n            <div class=\"col-sm-4\">");
                 EndContext();
                 BeginContext(1593, 72, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "41ceecd361da4488955d6e56800ca8c4", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "f6ceee416be440a38ca360e8bb6d233f", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -301,7 +301,7 @@ using build_one.Models;
                 WriteLiteral("</div>\r\n        </div>\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-4\">\r\n                <button class=\"btn btn-success\"> ");
                 EndContext();
                 BeginContext(1801, 85, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "800f4ee088004e2bbc7f19f3c87c61b2", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1988fe31adee4ce6b9ba704f775b75b8", async() => {
                     BeginContext(1868, 14, true);
                     WriteLiteral(" Book Holidays");
                     EndContext();
@@ -327,7 +327,7 @@ using build_one.Models;
                 WriteLiteral(" </button>\r\n            </div>\r\n            <div class=\"col-sm-4\">\r\n                <button class=\"btn btn-success\"> ");
                 EndContext();
                 BeginContext(2003, 86, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a4991a0cd7ae436d8ab8160e1883e539", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "49b1f89228274d99a70664d3b3158b77", async() => {
                     BeginContext(2070, 15, true);
                     WriteLiteral(" Staff Training");
                     EndContext();
@@ -353,7 +353,7 @@ using build_one.Models;
                 WriteLiteral(" </button>\r\n            </div>\r\n            <div class=\"col-sm-4\">\r\n                <button class=\"btn btn-success\"> ");
                 EndContext();
                 BeginContext(2206, 84, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "78d5a182c19d4fa9afb68691604a710d", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8e8784293e6f4b4c8254763fe2f588b8", async() => {
                     BeginContext(2273, 13, true);
                     WriteLiteral(" PlaceHolder ");
                     EndContext();
