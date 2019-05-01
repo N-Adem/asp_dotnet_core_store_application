@@ -1,0 +1,11 @@
+* This snippet of code when applied creates a drop down list
+-------------------------------------------------------------
+<div class="form-group">
+    <select class="custom-select">
+        <option selected="">General Goods</option>
+        <option value="1">Electric Goods</option>
+        <option value="2">Clothing</option>
+        <option value="3">Sporting Equiptment</option>
+        <option value="4">Home/ Gardening </option>
+    </select>
+</div>

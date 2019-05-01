@@ -14,6 +14,16 @@ namespace build_one.Models
         public double Price { get; set; }
         public int Quantity { get; set; }
         public bool isAvailable { get; set; }
-        
+
+        public int _payAmount = 2700;
+        int newBalance = 200;
+        public int CurrentBalance {
+            get
+            {    
+                return newBalance += _payAmount;
+            }
+            set
+            {}
+        }
     }
 }
